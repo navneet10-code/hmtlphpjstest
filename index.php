@@ -14,12 +14,17 @@ var myWidget = cloudinary.createUploadWidget({
     }
   }
 )
-function myFunction() {
-var url = console.log('urllllll: ',result.info.eager[0].url);
-}
+
 document.getElementById("upload_widget").addEventListener("click", function(){
     myWidget.open();
   }, false);
+  
+  function myFunction() {
+    console.log('inside fucntion');
+var url = console.log('urllllll: ',result.info.eager[0].url);
+}
+  
+  
 </script>
 
 <html>
