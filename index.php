@@ -5,7 +5,7 @@
 <script src="https://widget.cloudinary.com/v2.0/global/all.js" type="text/javascript"></script>  
 
 <script type="text/javascript"> 
-  function myFunction() {
+  
   var url;
 var myWidget = cloudinary.createUploadWidget({
   cloudName: 'ddumb92d7', 
@@ -26,7 +26,7 @@ var myWidget = cloudinary.createUploadWidget({
 document.getElementById("upload_widget").addEventListener("click", function(){
     myWidget.open();
   }, false);
-  }  
+   
   
   
   
