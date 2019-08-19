@@ -20,6 +20,7 @@ document.getElementById("upload_widget").addEventListener("click", function(){
 </script>
 
 <html>
+  <button >Upload files</button>
   <iframe width="560" height="315"
         src="{!url}"
         allowfullscreen="true"/>
