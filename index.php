@@ -14,9 +14,17 @@ var myWidget = cloudinary.createUploadWidget({
     }
   }
 )
-
+function myFunction() {
+var url = console.log('urllllll: ',result.info.eager[0].url);
+}
 document.getElementById("upload_widget").addEventListener("click", function(){
     myWidget.open();
   }, false);
 </script>
 
+<html>
+  <button onclick="myFunction()">Try it</button>
+  <iframe width="560" height="315"
+        src="{!url}"
+        allowfullscreen="true"/>
+</html>
