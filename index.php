@@ -12,6 +12,12 @@ var myWidget = cloudinary.createUploadWidget({
     if (!error && result && result.event === "success") { 
       console.log('Done! Here is the image info: ', result.info); 
     url  = console.log('urllllll: ',result.info.eager[0].url);
+    
+      function myFunction() {
+    console.log('inside fucntion', url);
+
+}
+      
     }
   }
 )
@@ -20,10 +26,7 @@ document.getElementById("upload_widget").addEventListener("click", function(){
     myWidget.open();
   }, false);
   
-  function myFunction() {
-    console.log('inside fucntion', url);
-
-}
+  
   
   
 </script>
