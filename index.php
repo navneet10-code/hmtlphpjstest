@@ -1,5 +1,8 @@
 <html>
 <button id="upload_widget" class="cloudinary-button">Upload files</button>
+  <iframe width="560" height="315"
+        src="{!url}"
+        allowfullscreen="true"/>
 </html>
 <script src="https://widget.cloudinary.com/v2.0/global/all.js" type="text/javascript"></script>  
 
@@ -19,9 +22,3 @@ document.getElementById("upload_widget").addEventListener("click", function(){
   }, false);
 </script>
 
-<html>
-  <button >Upload files</button>
-  <iframe width="560" height="315"
-        src="{!url}"
-        allowfullscreen="true"/>
-</html>
