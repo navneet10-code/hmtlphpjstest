@@ -5,12 +5,13 @@
 <script src="https://widget.cloudinary.com/v2.0/global/all.js" type="text/javascript"></script>  
 
 <script type="text/javascript">  
+  var url;
 var myWidget = cloudinary.createUploadWidget({
   cloudName: 'ddumb92d7', 
   uploadPreset: 'vqqpvdfw'}, (error, result) => { 
     if (!error && result && result.event === "success") { 
       console.log('Done! Here is the image info: ', result.info); 
-     var url = console.log('urllllll: ',result.info.eager[0].url);
+    url  = console.log('urllllll: ',result.info.eager[0].url);
     }
   }
 )
@@ -20,8 +21,8 @@ document.getElementById("upload_widget").addEventListener("click", function(){
   }, false);
   
   function myFunction() {
-    console.log('inside fucntion');
-var url = console.log('urllllll: ',result.info.eager[0].url);
+    console.log('inside fucntion', url);
+
 }
   
   
