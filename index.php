@@ -4,7 +4,8 @@
 </html>
 <script src="https://widget.cloudinary.com/v2.0/global/all.js" type="text/javascript"></script>  
 
-<script type="text/javascript">  
+<script type="text/javascript"> 
+  function myFunction() {
   var url;
 var myWidget = cloudinary.createUploadWidget({
   cloudName: 'ddumb92d7', 
@@ -13,10 +14,10 @@ var myWidget = cloudinary.createUploadWidget({
       console.log('Done! Here is the image info: ', result.info); 
     url  = console.log('urllllll: ',result.info.eager[0].url);
     
-      function myFunction() {
+      
     console.log('inside fucntion', url);
 
-}
+
       
     }
   }
@@ -25,7 +26,7 @@ var myWidget = cloudinary.createUploadWidget({
 document.getElementById("upload_widget").addEventListener("click", function(){
     myWidget.open();
   }, false);
-  
+  }  
   
   
   
