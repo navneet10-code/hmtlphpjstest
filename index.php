@@ -12,8 +12,8 @@
   <script>
     $("#upload_widget_opener").cloudinary_upload_widget(
   {
-    cloud_name: "eitanpeer",
-    upload_preset: "b8r5j3x7",
+    cloud_name: "ddumb92d7",
+    upload_preset: "vqqpvdfw",
     cropping: "server",
     folder: "user_photos",
     theme: "minimal",
