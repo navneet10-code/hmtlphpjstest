@@ -15,10 +15,6 @@ var myWidget = cloudinary.createUploadWidget({
     url  = console.log('urllllll: ',result.info.eager[0].url);
     
       
-    console.log('inside fucntion', url);
-
-
-      
     }
   }
 )
@@ -26,8 +22,6 @@ var myWidget = cloudinary.createUploadWidget({
 document.getElementById("upload_widget").addEventListener("click", function(){
     myWidget.open();
   }, false);
-   
-  
   
   
 </script>
